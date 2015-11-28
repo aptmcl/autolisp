@@ -1,7 +1,8 @@
-(module reader syntax/module-reader
-  #:language "autolisp"
-  #:wrapper1 with-autolisp-reader-parameters
-  (require "readtable.rkt"))
+#lang s-exp syntax/module-reader
+#:language "autolisp/main.rkt"
+#:wrapper1 with-autolisp-reader-parameters
+
+(require "readtable.rkt")
 
 #|
 ;;#lang s-exp syntax/module-reader
