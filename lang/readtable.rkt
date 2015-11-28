@@ -5,7 +5,7 @@
 
 (require syntax/readerr
          (for-syntax scheme/base)
-         (only-in "../support.rkt" nil-name? nil))
+         (only-in "../src/support.rkt" nil-name? nil))
 
 (provide with-autolisp-reader-parameters
          rx:id
