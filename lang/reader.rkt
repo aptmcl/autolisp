@@ -1,5 +1,5 @@
 #lang s-exp syntax/module-reader
-#:language "../autolisp/main.rkt"
+#:language "../main.rkt"
 #:wrapper1 with-autolisp-reader-parameters
 
 (require "readtable.rkt")
